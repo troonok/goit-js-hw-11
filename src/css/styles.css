@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+  
+  }
+  
+  .link {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 0;
+  }
+  
+  .list {
+    list-style: none;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  p,
+  ul {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  ul {
+    padding-left: 0;
+  }
+  
+  img {
+    display: block;
+    
+  }
+  
+  body {
+  
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+      Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #fafafa;
+    color: #212121;
+    line-height: 1.5;
+  
+  }
+  
+  .container {
+   background-color: rgb(105, 147, 238);
+   
+    
+  }
+  .title{
+    text-align: center;
+  }
+  .search__form{
+    display: flex;
+    max-width: 350px;
+    font: inherit;
+    padding: 8px;
+    margin: 0 auto 0 auto;
+  }
+  
+  .search__input{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    border-radius: 6px;
+    border: 0px;
+    padding: 4px 8px;
+    
+  }
+  
+  .btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.06em;
+    border-radius: 6px;
+    border: 0px;
+  }
+  
+  .search__btn{
+    margin-left: auto;
+    padding: 4px 16px;
+  }
+  
+  .gallery{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+     
+      /* margin: -16px; */
+    
+  }
+  
+  .photo-card{
+  
+    width: 300px;
+    text-align: center;
+    /* margin: 16px; */
+  
+  
+  }
+  
+  .img{
+   max-width: 100%;
+   /* margin-bottom: 30px; */
+  }
+  
+  .info{
+    padding: 20px;
+    border-left: 1px solid rgb(96, 96, 96);
+  border-right: 1px solid rgb(96, 96, 96);
+  border-bottom: 1px solid rgb(96, 96, 96);
+  }
+  
+  .add-search__btn{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: rgb(105, 147, 238); 
+    color: whitesmoke;
+    padding: 8px 16px;
+  }
+  
+  .add-search__btn:disabled{
+    background-color: #c1c1c1;
+      cursor: not-allowed;
+  }
+  
+  .hidden {
+    display: none;
+  }
